@@ -41,7 +41,8 @@ public class MySqlTableColumnLoader extends JDBCTableColumnLoader {
 	}
 
 	protected Column processRow(ResultSet rs) throws SQLException {
-		Column column = new JDBCColumn();
+	//	Column column = new JDBCColumn();
+		Column column = new MySqlCatalogColumn();
 
 		final String columnName = rs.getString(4);
 		column.setName(columnName);
