@@ -6,7 +6,7 @@ Bundle-Version: 1.1.0.qualifier
 Bundle-Activator: org.eclipse.datatools.enablement.mysql.ui.Activator
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
-Require-Bundle: org.eclipse.ui,
+Require-Bundle: org.eclipse.ui;resolution:=optional,
  org.eclipse.core.runtime,
  org.eclipse.datatools.connectivity,
  org.eclipse.datatools.connectivity.ui,
