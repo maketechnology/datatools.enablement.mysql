@@ -10,7 +10,8 @@ Require-Bundle: org.eclipse.ui;resolution:=optional,
  org.eclipse.core.runtime,
  org.eclipse.datatools.connectivity,
  org.eclipse.datatools.connectivity.ui,
- org.eclipse.datatools.enablement.mysql
+ org.eclipse.datatools.enablement.mysql,
+ org.eclipse.rap.ui
 Eclipse-LazyStart: true
 Bundle-ActivationPolicy: lazy
 Export-Package: org.eclipse.datatools.enablement.mysql.ui,
