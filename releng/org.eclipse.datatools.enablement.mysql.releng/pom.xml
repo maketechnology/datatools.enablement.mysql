@@ -15,8 +15,8 @@
     </parent>
 
     <modules>
-    	<module>../../plugins/org.eclipse.datatools.enablement.mysql.sqlserver.dbdefinition</module>
-        <module>../../plugins/org.eclipse.datatools.enablement.mysql.sqlserver</module>
-        <module>../../plugins/org.eclipse.datatools.enablement.mysql.sqlserver.ui</module>
+    	<module>../../plugins/org.eclipse.datatools.enablement.mysql.dbdefinition</module>
+        <module>../../plugins/org.eclipse.datatools.enablement.mysql</module>
+        <module>../../plugins/org.eclipse.datatools.enablement.mysql.ui</module>
     </modules>
 </project>
